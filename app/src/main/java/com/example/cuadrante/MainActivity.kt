@@ -34,7 +34,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    Greeting("Android")
+                    ComposeCuadrante()
                 }
             }
         }
@@ -102,9 +102,10 @@ private fun ComposableInfo(
 }
 
 @Preview(showBackground = true)
+@Preview(showBackground = true)
 @Composable
-fun GreetingPreview() {
+fun ComposeCuadrantePreview() {
     CuadranteTheme {
-        Greeting("Android")
+        ComposeCuadrante()
     }
 }
